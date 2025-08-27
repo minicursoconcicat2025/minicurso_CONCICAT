@@ -15,8 +15,8 @@ library(dplyr)
 message("Importando dados...")
 
 procedimentos <- read_delim("https://raw.githubusercontent.com/minicursoconcicat2025/minicurso_CONCICAT/refs/heads/main/Base%20de%20dados/Anual.txt", delim = "\t")
-reajuste      <- read_delim("https://raw.githubusercontent.com/minicursoconcicat2025/minicurso_CONCICAT/refs/heads/main/Base%20de%20dados/IPCA_anual.txt", delim = "\t")
-ipca_anual    <- read_delim("https://raw.githubusercontent.com/minicursoconcicat2025/minicurso_CONCICAT/refs/heads/main/Base%20de%20dados/ReajusteAnual.txt", delim = "\t")
+ipca_anual    <- read_delim("https://raw.githubusercontent.com/minicursoconcicat2025/minicurso_CONCICAT/refs/heads/main/Base%20de%20dados/IPCA_anual.txt", delim = "\t")
+reajuste    <- read_delim("https://raw.githubusercontent.com/minicursoconcicat2025/minicurso_CONCICAT/refs/heads/main/Base%20de%20dados/ReajusteAnual.txt", delim = "\t")
 
 # 3. Exploração inicial ----------------------------------
 message("Explorando dados de procedimentos...")
